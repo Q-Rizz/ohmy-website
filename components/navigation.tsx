@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { Menu, X } from "lucide-react"
+import Image from "next/image"
 
 export function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -39,8 +40,8 @@ export function Navigation() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0 flex items-center space-x-3">
-              <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-cyan-500 to-purple-600 flex items-center justify-center">
-                <span className="text-white font-bold text-lg orbitron">O</span>
+              <div className="w-14 h-14 rounded-lg overflow-hidden flex items-center justify-center">
+                <Image src="/pictures/Ohmies logo.png" alt="Logo" width={56} height={56} />
               </div>
               <span className="text-2xl font-bold gradient-text orbitron">
                 OHM<span className="text-white">ies</span>

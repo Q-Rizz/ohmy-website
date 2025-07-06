@@ -37,7 +37,7 @@ export function ProductsSection() {
               <div className="absolute -top-6 -left-6 w-40 h-40 rounded-full bg-purple-600 filter blur-3xl opacity-20"></div>
               <div className="relative neon-border rounded-2xl overflow-hidden card-glow">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/pictures/Neo Ftont view.png"
                   alt="NeoPark"
                   width={600}
                   height={400}

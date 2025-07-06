@@ -10,7 +10,7 @@ export function Footer() {
           </div>
           <div className="flex justify-center md:justify-end">
             <p className="text-sm text-gray-400 text-center md:text-right">
-              &copy; 2023 OHMies Technologies. All rights reserved. <span className="hidden md:inline">|</span>{" "}
+              &copy; 2025 OHMies Incorporated. All rights reserved. <span className="hidden md:inline">|</span>{" "}
               <br className="md:hidden" />
               <span className="md:ml-2">Connecting the Future</span>
             </p>

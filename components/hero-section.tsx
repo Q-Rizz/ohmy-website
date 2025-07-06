@@ -53,19 +53,21 @@ export function HeroSection() {
             <div className="relative w-full max-w-md">
               <div className="absolute -top-10 -left-10 w-32 h-32 rounded-full bg-purple-600 filter blur-xl opacity-50"></div>
               <div className="absolute -bottom-10 -right-10 w-32 h-32 rounded-full bg-cyan-600 filter blur-xl opacity-50"></div>
-              <div className="relative neon-border rounded-2xl overflow-hidden card-glow">
-                <Image
-                  src="/placeholder.svg?height=400&width=600"
-                  alt="Smart City"
-                  width={600}
-                  height={400}
-                  className="w-full h-auto object-cover"
-                />
-                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 to-transparent p-6">
-                  <h3 className="text-xl font-bold orbitron">NeoPark</h3>
-                  <p className="text-sm text-gray-300">Our revolutionary smart parking solution</p>
+              <a href="https://neopark-seven.vercel.app/?fbclid=IwY2xjawLWKI1leHRuA2FlbQIxMQABHmbvOhsYRLyQ1xMIZVvChBzschySbQ-D5r2KZnd6FyUwbUYwr1pA5QCR_M_7_aem_p5AK2FaxkGuN4nszM25K_Q" target="_blank" rel="noopener noreferrer" className="block group">
+                <div className="relative neon-border rounded-2xl overflow-hidden card-glow group-hover:ring-2 group-hover:ring-cyan-400 transition-all">
+                  <Image
+                    src="/pictures/neo no bg.png"
+                    alt="Smart City"
+                    width={600}
+                    height={400}
+                    className="w-full h-auto object-cover"
+                  />
+                  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 to-transparent p-6">
+                    <h3 className="text-xl font-bold orbitron">NeoPark</h3>
+                    <p className="text-sm text-gray-300">Our revolutionary smart parking solution</p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>

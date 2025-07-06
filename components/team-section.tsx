@@ -5,8 +5,8 @@ export function TeamSection() {
   const teamMembers = [
     {
       name: "Rhea Rizz Perocho",
-      role: "CEO & Co-Founder",
-      description: "Visionary leader with expertise in IoT architecture and smart city solutions.",
+      role: "Software Engineer",
+      description: "A software engineer speciliazing in frontend and ui/ux design.",
       image: "/placeholder.svg?height=200&width=200",
       color: "cyan",
       social: [
@@ -16,8 +16,8 @@ export function TeamSection() {
     },
     {
       name: "Lance Tyrone Del Socorro",
-      role: "CTO & Co-Founder",
-      description: "Hardware specialist and embedded systems engineer with a passion for innovation.",
+      role: "Electrical Engineer",
+      description: "Hardware specialist and electrical engineer with a passion for innovation.",
       image: "/placeholder.svg?height=200&width=200",
       color: "purple",
       social: [
@@ -27,7 +27,7 @@ export function TeamSection() {
     },
     {
       name: "Franz Samilo",
-      role: "Lead Software Engineer",
+      role: "Software Engineer",
       description: "Full-stack developer with expertise in cloud computing and mobile applications.",
       image: "/placeholder.svg?height=200&width=200",
       color: "cyan",
@@ -38,8 +38,8 @@ export function TeamSection() {
     },
     {
       name: "Dale Cervera",
-      role: "Product Manager",
-      description: "UX specialist and product strategist focused on creating intuitive smart systems.",
+      role: "Software Engineerr",
+      description: "IoT specialist and product strategist focused on creating intuitive smart systems.",
       image: "/placeholder.svg?height=200&width=200",
       color: "purple",
       social: [
@@ -49,7 +49,7 @@ export function TeamSection() {
     },
     {
       name: "Kirsten Tordesillas",
-      role: "Marketing Director",
+      role: "Electronis Engineer",
       description: "Creative strategist specializing in digital marketing and brand development for tech companies.",
       image: "/placeholder.svg?height=200&width=200",
       color: "cyan",
