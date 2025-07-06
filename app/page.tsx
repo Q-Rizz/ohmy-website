@@ -1,9 +1,21 @@
-export default function TestPage() {
+import { Navigation } from "@/components/navigation"
+import { HeroSection } from "@/components/hero-section"
+import { AboutSection } from "@/components/about-section"
+import { ProductsSection } from "@/components/products-section"
+import { TeamSection } from "@/components/team-section"
+import { ContactSection } from "@/components/contact-section"
+import { Footer } from "@/components/footer"
+
+export default function HomePage() {
   return (
-    <div className="min-h-screen bg-red-500 text-white p-8">
-      <h1 className="text-4xl font-bold mb-4">Tailwind Test</h1>
-      <div className="bg-blue-500 p-4 rounded-lg">If you see red background and blue box, Tailwind is working!</div>
-      <div className="gradient-text text-6xl mt-8">Gradient Text Test</div>
+    <div className="min-h-screen grid-pattern">
+      <Navigation />
+      <HeroSection />
+      <AboutSection />
+      <ProductsSection />
+      <TeamSection />
+      <ContactSection />
+      <Footer />
     </div>
   )
 }
