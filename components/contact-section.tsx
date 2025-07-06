@@ -15,7 +15,6 @@ export function ContactSection() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // Handle form submission here
     console.log("Form submitted:", formData)
   }
 
@@ -128,7 +127,7 @@ export function ContactSection() {
                   </div>
                   <div className="ml-4">
                     <h4 className="font-medium text-gray-200">Location</h4>
-                    <p className="text-gray-400">Metro Manila, Philippines</p>
+                    <p className="text-gray-400">Jaro Iloilo City, Philippines</p>
                   </div>
                 </div>
 
@@ -138,7 +137,7 @@ export function ContactSection() {
                   </div>
                   <div className="ml-4">
                     <h4 className="font-medium text-gray-200">Email</h4>
-                    <p className="text-gray-400">contact@ohmies.tech</p>
+                    <p className="text-gray-400">ohmiesInc@gmail.com</p>
                   </div>
                 </div>
 
@@ -148,7 +147,7 @@ export function ContactSection() {
                   </div>
                   <div className="ml-4">
                     <h4 className="font-medium text-gray-200">Phone</h4>
-                    <p className="text-gray-400">+63 912 345 6789</p>
+                    <p className="text-gray-400">+63 9279288538</p>
                   </div>
                 </div>
               </div>
