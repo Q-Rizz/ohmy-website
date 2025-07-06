@@ -3,13 +3,7 @@ import defaultConfig from "shadcn/ui/tailwind.config"
 
 const config: Config = {
   ...defaultConfig,
-  content: [
-    ...defaultConfig.content,
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
-    "*.{js,ts,jsx,tsx,mdx}",
-  ],
+  content: [...defaultConfig.content, "./pages/**/*.{js,ts,jsx,tsx,mdx}", "*.{js,ts,jsx,tsx,mdx}"],
   theme: {
     ...defaultConfig.theme,
     extend: {
@@ -24,25 +18,13 @@ const config: Config = {
       },
       keyframes: {
         pulse: {
-          "0%": {
-            boxShadow: "0 0 0 0 rgba(0, 240, 255, 0.4)",
-          },
-          "70%": {
-            boxShadow: "0 0 0 10px rgba(0, 240, 255, 0)",
-          },
-          "100%": {
-            boxShadow: "0 0 0 0 rgba(0, 240, 255, 0)",
-          },
+          "0%": { boxShadow: "0 0 0 0 rgba(0, 240, 255, 0.4)" },
+          "70%": { boxShadow: "0 0 0 10px rgba(0, 240, 255, 0)" },
+          "100%": { boxShadow: "0 0 0 0 rgba(0, 240, 255, 0)" },
         },
         fadeIn: {
-          from: {
-            opacity: "0",
-            transform: "translateY(20px)",
-          },
-          to: {
-            opacity: "1",
-            transform: "translateY(0)",
-          },
+          from: { opacity: "0", transform: "translateY(20px)" },
+          to: { opacity: "1", transform: "translateY(0)" },
         },
       },
     },
